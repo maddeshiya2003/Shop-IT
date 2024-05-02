@@ -1,0 +1,49 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin: -150px 20px 0px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.product__rating {
+    display: flex;
+}
+
+.product__img {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.add-to-cart {
+    background: #f0c14b;
+    border: 1px solid;
+    margin-top: 10px;
+    border-color: #a88734 #9c7e31 #846a29;
+    color: #111;
+}
+
+.product__price {
+    margin-top: 5px;
+}
+
+.product__info {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+/* Media Query for Mobile View */
+@media only screen and (max-width: 768px) {
+    .product {
+        margin: 20px; /* Adjust margins for smaller screens */
+    }
+}
